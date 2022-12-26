@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Prihlásenie alebo registrácia nových používateľov. Autor webu: Marek Guráň">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Prihlásenie</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+
+	<div class="hero">
+		<nav>
+			<ul>
+				<li><a href="index.html">Domov</a></li>
+				<li><a href="skola.html">Škola</a></li>
+				<li><a href="zaujmy.html">Záujmy</a></li>
+				<li><a href="zivotopis.html">Životopis</a></li>
+			</ul>
+		</nav>
+	</div>
+
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h1>Vytvoriť účet</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>alebo použite svoj e-mail na registráciu</span>
+			<input type="text" placeholder="Meno" />
+			<input type="email" placeholder="E-mail" />
+			<input type="password" placeholder="Heslo" />
+			<button>Vytvoriť účet</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="#">
+			<h1>Prihlásiť sa</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>alebo použite svoj účet</span>
+			<input type="email" placeholder="E-mail" />
+			<input type="password" placeholder="Heslo" />
+			<a href="#">Zabudli ste heslo?</a>
+			<button>Prihlásiť sa</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Vitajte!</h1>
+				<p>Už máte účet?</p>
+				<button class="ghost" id="signIn">Prihlásiť sa</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Vitajte!</h1>
+				<p>Ešte nemáte účet?</p>
+				<button class="ghost" id="signUp">Registrovať sa</button>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="scripts/login.js"></script>
+  </body>
+</html>

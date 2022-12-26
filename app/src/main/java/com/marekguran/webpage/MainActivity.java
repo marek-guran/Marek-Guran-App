@@ -24,7 +24,10 @@ public class MainActivity extends AppCompatActivity {
         webView = findViewById(R.id.webView);
         webView.setWebViewClient(client);
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadUrl("https://marek-guran.sk/");
+        webView.getSettings().setAllowFileAccess(true);
+        webView.getSettings().setAllowFileAccessFromFileURLs(true);
+        webView.getSettings().setAllowContentAccess(true);
+        webView.loadUrl("file:///android_asset/index.html");
     }
 
     @Override

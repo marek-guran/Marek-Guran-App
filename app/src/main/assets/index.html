@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="sk">
+
+<head>
+	<title>Domov - Marek Guráň</title>
+	<meta name="description" content="Webstránka slúži primárne ako záverečný projekt pre predmet webový dizajn. Autor webu: Marek Guráň">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="manifest" href="/json/manifest.json">
+
+   <script>
+	if('serviceWorker' in navigator){
+	navigator.serviceWorker.register('service-worker.js');
+	} else {
+	console.log("Service worker is not supported");
+	}
+	</script>
+</head>
+
+<body>
+	<div class="hero">
+		<nav>
+			<h2 class="logo">M<span>G</span></h2>
+			<input type="checkbox" id="nav-check">
+			<ul class="nav-links">
+			  <li><a href="index.html">Domov</a></li>
+			  <li><a href="skola.html">Škola</a></li>
+			  <li><a href="zaujmy.html">Záujmy</a></li>
+			  <li><a href="zivotopis.html">Životopis</a></li>
+			</ul>
+			<a href="login.html" class="btn">Prihlásenie</a>
+			<div class="nav-btn">
+			  <label for="nav-check">
+				<span></span>
+				<span></span>
+				<span></span>
+			  </label>
+			</div>
+		  </nav>
+
+		<div class="content">
+			<h4>Ahoj, moje meno je</h4>
+			<h1>Marek <span>Guráň</span></h1>
+			<h3>Som študentom vysokej školy.</h3>
+		</div>
+	</div>
+
+	<section class="about">
+		<div class="main">
+			<img src="images/MG.jpg" alt="MG fotka" loading="lazy">
+			<div class="about-text">
+				<h2>O mne</h2>
+				<h5>Študent <span>VŠ</span></h5>
+				<p>Som študentom vysokej školy, na ktorej študujem jedno odborovú informatiku. Dosť sa zaujímam o technológie a hardvér. Mám vyštudovanú strednú odbornú školu v odbore operátor ofsetových tlačových strojov.</p>
+			</div>
+		</div>
+	</section>
+
+	<div class="gallerytitle">
+		<h2>Môj výber fotiek</h2>
+	</div>
+	<div class="gallery">
+		<img src="images/gallery/stuzkova.jpg" alt="stuzkova" loading="lazy">
+		<img src="images/gallery/praxmaturita2.JPG" alt="praxmaturita" loading="lazy">
+		<img src="images/gallery/praxmaturita1.JPG" alt="praxmaturita" loading="lazy">
+		<img src="images/gallery/pond.jpg" alt="pond" loading="lazy">
+		<img src="images/gallery/sunset.jpg" alt="sunset" loading="lazy">
+		<img src="images/gallery/waterdrops.jpg" alt="waterdrops" loading="lazy">
+	</div>
+	<div class="service">
+		<div class="title">
+			<h2>Moje karty</h2>
+		</div>
+
+		<div class="box">
+			<div class="card">
+                <i class="fa fa-github"></i>
+				<h5>Github</h5>
+				<div class="pra">
+					<p>Otvorte si môj GitHub profil.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://github.com/marek-guran" target="_blank">GitHub</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="fab fa-google-play"></i>
+				<h5>Google Play</h5>
+				<div class="pra">
+					<p>Môj profil Google Play vývojára.
+                    </p>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://play.google.com/store/apps/dev?id=7516657504856149508" target="_blank">Pozrieť</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+                <i class='fa fa-envelope'></i>
+				<h5>E-mail</h5>
+				<div class="pra">
+					<p>Napíšte mi e-mail.</p>
+					<p style="text-align: center;">
+						<a class="button" href="mailto:guran.marek1999@gmail.com">Napísať</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<p>Marek Guráň</p>
+		<p>Moje ďalšie sociálne kontakty:</p>
+		<div class="social">
+			<a href="https://www.facebook.com/marek.guran" target="_blank"><i class="fab fa-facebook-f"></i></a>
+			<a href="https://www.instagram.com/marek_guran/" target="_blank"><i class="fab fa-instagram"></i></a>
+		</div>
+	</footer>
+</body>
+</html>
