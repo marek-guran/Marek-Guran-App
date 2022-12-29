@@ -9,5 +9,12 @@
     <color name="white">#FFFFFFFF</color>
     <color name="meno">#FFFFFF</color>
     <color name="meno_text">@color/black</color>
+    <color name="nazov_karty">@color/white</color>
     <color name="android">#3DDA84</color>
+    <color name="android_text">#33B66E</color>
+    <color name="hardver">#ADFF3B3B</color>
+    <color name="hardver_text">#ADF80202</color>
+    <color name="o_mne">#8B323131</color>
+    <color name="o_mne_text">#8B323131</color>
+    <color name="pracovne_skusenosti">#1C4361</color>
 </resources>
