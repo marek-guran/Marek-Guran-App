@@ -27,7 +27,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/meno"
+            android:id="@+id/android"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/android"
@@ -41,16 +41,47 @@
             app:layout_constraintTop_toBottomOf="@+id/status_bar_space" />
 
         <TextView
+            android:id="@+id/android_text"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/android_text"
             android:textSize="14sp"
+            android:background="@drawable/android_text"
             android:layout_marginTop="20sp"
             android:layout_marginLeft="20sp"
             android:layout_marginRight="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/meno" />
+            app:layout_constraintTop_toBottomOf="@+id/android" />
+
+        <TextView
+            android:id="@+id/hardver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/android"
+            android:gravity="center"
+            android:text="@string/hardver"
+            android:textColor="@color/meno_text"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/android_text"/>
+
+        <TextView
+            android:id="@+id/hardver_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/hardver_text"
+            android:textSize="14sp"
+            android:background="@drawable/android_text"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hardver"/>
 
 
 
