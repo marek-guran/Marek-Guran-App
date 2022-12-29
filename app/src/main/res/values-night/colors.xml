@@ -17,4 +17,9 @@
     <color name="o_mne">#8B323131</color>
     <color name="o_mne_text">#8B323131</color>
     <color name="pracovne_skusenosti">#1C4361</color>
+    <color name="vzdelanie">#AF9200</color>
+    <color name="znalosti">#ADFF3B3B</color>
+    <color name="jazyky">#248F3F</color>
+    <color name="vp">#CA4203</color>
+    <color name="certifikacie">#770298</color>
 </resources>
