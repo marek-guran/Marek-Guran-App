@@ -1,70 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Marek Guráň</string>
-    <string name="title_home">Životopis</string>
-    <string name="title_dashboard">Záujmy</string>
-    <string name="photo_of_marek_guran">Fotka Mareka Guráňa</string>
-    <string name="google_it_certificate_photo">Fotka Google IT Certifikátu</string>
-    <string name="google_marketing_photo">Fotka Certifikátu Základy Digitálneho Marketingu od Googlu</string>
-
-    <string name="o_mne_nadpis">O Mne</string>
-    <string name="o_mne">Som študentom vysokej školy, na ktorej študujem jedno odborovú informatiku. Dosť sa zaujímam o technológie a hardvér. Mám vyštudovanú strednú odbornú školu v odbore operátor ofsetových tlačových strojov. Medzi moje koníčky patrí aj web dizajn, ktorý ma zaujal len nedávno.</string>
-
-
-
-    <string name="pracovne_skusenosti_nadpis">Pracovné Skúsenosti</string>
-
-    <string name="nay_rok">Nov 2021 - Dec 2021 Manipulant s tovarom (Brigáda)</string>
-    <string name="nay_lokalizacia">NAY a.s. - Martin, Slovenská republika</string>
-    <string name="nay_popis">● Naskladňovanie tovaru\n● Vykladanie a vystavovanie tovaru na predajnú plochu\n● Pomoc zákazníkom pri výbere a naloženia tovaru do auta</string>
-
-    <string name="alfa_rok">Jan 2017 - Jan 2019 Tlačiar (Odborný výcvik)</string>
-    <string name="alfa_lokalizacia">Alfa print, s.r.o. - Martin, Slovenská republika</string>
-    <string name="alfa_popis">● Výpomoc pri offsetových tlačiarenských strojoch\n● Čistenie stroja pred ďalšou tlačou\n● Výmena offsetových tlačových platní\n● Kontrola farebnosti tlače\n● Miešanie vlhčiaceho roztoku</string>
-
-    <string name="neografia_rok">Jan 2016 - Jan 2017 Tlačiar (Odborný výcvik)</string>
-    <string name="neografia_lokalizacia">NEOGRAFIA, a.s. - Martin, Slovenská republika</string>
-    <string name="neografia_popis">● Výpomoc pri offsetových tlačiarenských strojoch\n● Čistenie stroja pred ďalšou tlačou\n● Výmena offsetových tlačových platní\n● Kontrola farebnosti tlače</string>
-
-
-
-    <string name="vzdelanie">Vzdelanie</string>
-    <string name="vzdelanie_nazov">2015 – 2019 Stredná odborná škola obchodu a služieb</string>
-    <string name="vzdelanie_odbor">● Operátor tlače pre ofset</string>
-    
-    
-    
-    <string name="znalosti">Znalosti</string>
-    <string name="list_znalosti">Windows - Pokročilý\nLinux - Mierne Pokročilý\nTechnická Podpora - Mierne Pokročilý\nHardvérová Podpora - Pokročilý\nIT Operácie - Mierne Pokročilý\nBezpečnostná Politika - Mierne Pokročilý\nActive Directory (Windows) - Základy\nMicrosoft Hyper-V - Pokročilý\nPython - Pokročilý\nJava - Základy\nJavaScript - Základy\nHTML - Mierne Pokročilý\nCSS - Mierne Pokročilý\nMicrosoft Office 365 - Pokročilý\nAndroid Studio - Mierne Pokročilý\nBlender - Mierne Pokročilý</string>
-
-
-
-    <string name="jazyky">Jazyky</string>
-    <string name="jazyky_list">Angličtina - B2\nSlovenčina - Materský Jazyk</string>
-
-
-
-    <string name="vp">Vodičský Preukaz</string>
-    <string name="vp_skupina">Skupina B</string>
-
-
-
-    <string name="certifikácie">Certifikácie</string>
+    <string name="title_home">Resume</string>
+    <string name="title_dashboard">Hobbies</string>
+    <string name="photo_of_marek_guran">Photo Of Marek Guráň</string>
+    <string name="google_it_certificate_photo">Photo Of Google IT Certification</string>
+    <string name="google_marketing_photo">Photo of Google Digital Marketing Fundementals</string>
+    <string name="o_mne_nadpis">About Me</string>
+    <string name="pracovne_skusenosti_nadpis">Work Expierence</string>
+    <string name="vzdelanie">Education</string>
+    <string name="o_mne">I am a student at a university where I am studying computer science. I am quite interested in technology and hardware. I graduated from secondary vocational school in the field of offset printing machine operator. Among my hobbies is also web design, which caught my attention only recently.</string>
+    <string name="nay_rok">"Nov 2021 - Dec 2021 Goods Handler (Voluntary work) "</string>
+    <string name="nay_lokalizacia">NAY a.s. - Martin, Slovakia</string>
+    <string name="nay_popis">"● Warehousing of goods\n● Unloading and display of goods on the sales area\n● Helping customers in choosing and loading goods into the car "</string>
+    <string name="alfa_rok">Jan 2017 - Jan 2019 Printer (Professional training)</string>
+    <string name="alfa_lokalizacia">Alfa print, s.r.o. - Martin, Slovakia</string>
+    <string name="neografia_rok">"Jan 2016 - Jan 2017 Printer (Professional training) "</string>
+    <string name="neografia_lokalizacia">NEOGRAFIA, a.s. - Martin, Slovakia</string>
+    <string name="vzdelanie_nazov">2015 – 2019 Secondary Vocational School of Trade and Services</string>
+    <string name="znalosti">Knowledge</string>
+    <string name="jazyky">Languages</string>
+    <string name="vp">Driving License</string>
+    <string name="vp_skupina">Group B</string>
+    <string name="certifikácie">Certifications</string>
     <string name="google_it_nazov">Google IT Support Specialization Certificate</string>
-    <string name="google_it_vydavatelia">Google, Coursera</string>
-
-    <string name="digital_margeting">Základy digitálneho marketingu</string>
-    <string name="digital_marketing_vydavatelia">Google</string>
-
+    <string name="digital_margeting">"Basics Of Digital Marketing "</string>
     <string name="erasmus">Recognition For Acquired Experience And Competences</string>
+    <string name="android_text">"I am interested in Android OS development. Having the most up-to-date version of android is impossible in most cases... This is due to the fact that the phone manufacturer fulfills its obligation and provides the update only for a certain time. Most manufacturers only provide updates for 2-3 years. As a result, the phone loses support and can no longer be updated and becomes less and less secure over time. That's why I have become interested in Android OS development and learned to create my own versions of Android OS. In the past, I managed an unofficial version of LineageOs 14.1 for my old phone Asus ZenFone 2. After a while, I no longer had a powerful enough PC for development, so I decided to become a user... However, recently I started re-releasing custom versions of Android OS for Xiaomi Mi A2 based on LineageOs 18.1 (Android 11). "</string>
+    <string name="hardver">"Computer Hardware "</string>
+    <string name="hardver_text">"I also do not disdain information about the latest PC hardware. I've never had a pre-assembled computer, I've always bought components and assembled them myself. I currently have a computer with an AMD Ryzen 3 1200 processor, an Nvidia GeForce GTX 1650 GPU, 16GB of RAM and an SSD drive. I have put it together back in 2015 and I am gradually improving it. The computer has already undergone many upgrades... In the basic configuration, when I have assembled it for the first time, it had only one HDD, 8 GB of RAM and a GTX 1050. "</string>
+    <string name="vzdelanie_odbor">"● Print operator for offset "</string>
+    <string name="google_it_vydavatelia">Google, Coursera</string>
+    <string name="digital_marketing_vydavatelia">Google</string>
     <string name="erasmus_vydavatelia">Erasmus+</string>
-
-    <string name="empty_space">\n\n\n\n\n\n\n</string>
-
-
-
     <string name="android">Android</string>
-    <string name="android_text">Zaujímam sa o vývoj OS Android. Mať najaktuálnejšiu verziu androidu je vo väčšine prípadoch nemožné... Je to následkom toho, že výrobca telefónu splní svoju povinnosť a poskytne aktualizáciu len na určitý čas. Väčšina výrobcov poskytuje aktualizácie len na 2-3 roky. Tým pádom telefón stráca podporu a už sa nedá aktualizovať a časom je menej a menej bezpečný. Preto som sa začal zaujímať o vývoj OS Android a učil som sa vytvárať vlastné verzie OS androidu. V minulosti som spravoval neoficiálnu verziu LineageOs 14.1 pre môj starý telefón Asus ZenFone 2. Po čase som už nemal dostatočne výkonný PC na vývoj a preto som sa rozhodol stať iba používateľom... Avšak nedávno som začal znovu vydávať vlastné verzie OS Android pre Xiaomi Mi A2 založený na LineageOs 18.1 (Android 11).</string>
-
-    <string name="hardver">Počítačový Hardvér</string>
-    <string name="hardver_text">Taktiež nepohrdnem po informáciach o najnovšom hardvéri určenom pre PC. Nikdy som nemal predom poskladaný počítač, vždy som si kúpil komponenty a poskladal som si ho. V súčasnosti mám počítač s procesorom AMD Ryzen 3 1200, grafickou kartou Nvidia GeForce GTX 1650, 16GB RAM a s SSD diskom. Poskladal som ho v roku 2015 a postupne si ho vylepšujem a pridávam nové komponenty. Počítač prešiel už mnohými upgradami... V základnej konfigurácii, keď som ho prvý krát skladal mal len jeden HDD, 8 GB RAM a GTX 1050.</string>
+    <string name="alfa_popis">"● Assistance with offset printing machines\n● Cleaning the machine before the next print\n● Changing offset printing plates\n● Checking the color of the print\n● Mixing the printing colors "</string>
+    <string name="neografia_popis">● Assistance with offset printing machines\n● Cleaning the machine before the next print\n● Changing offset printing plates\n● Checking the color of the print</string>
+    <string name="list_znalosti">Windows - Advanced\nLinux - Moderately Advanced\nTechnical Support - Moderately Advanced\nHardware Support - Advanced\nIT Operations - Moderately Advanced\nSecurity Policy - Moderately Advanced\nActive Directory (Windows) - Basics\nMicrosoft Hyper-V - Advanced\nPython - Advanced\nJava - Basics\nJavaScript - Basics\nHTML - Moderately Advanced\nCSS - Moderately Advanced\nMicrosoft Office 365 - Advanced\nAndroid Studio - Moderately Advanced\nBlender - Moderately Advanced</string>
+    <string name="jazyky_list">English - B2\nSlovak - Mother Tongue</string>
+    <string name="empty_space">\n\n\n\n\n\n\n</string>
 </resources>
