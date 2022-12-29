@@ -1,56 +1,39 @@
 package com.marekguran.webpage;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.annotation.SuppressLint;
-import android.app.Activity;
 import android.os.Bundle;
-import android.view.KeyEvent;
-import android.webkit.WebResourceRequest;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.WindowCompat;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
+import androidx.navigation.ui.AppBarConfiguration;
+import androidx.navigation.ui.NavigationUI;
+
+import com.marekguran.webpage.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
-    private WebView webView;
+    private ActivityMainBinding binding;
 
-    @SuppressLint("SetJavaScriptEnabled")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        WindowCompat.setDecorFitsSystemWindows(getWindow(), false);
 
-        CustomWebViewClient client = new CustomWebViewClient(this);
-        webView = findViewById(R.id.webView);
-        webView.setWebViewClient(client);
-        webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadUrl("https://marek-guran.sk/");
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+
+        BottomNavigationView navView = findViewById(R.id.nav_view);
+        // Passing each menu ID as a set of Ids because each
+        // menu should be considered as top level destinations.
+        AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
+                R.id.navigation_home, R.id.navigation_dashboard)
+                .build();
+        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
+        //preč kvôli skrytému navigačnému panelu            NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
+        NavigationUI.setupWithNavController(binding.navView, navController);
     }
 
-    @Override
-    public boolean onKeyDown(int keyCode, KeyEvent event){
-        if(keyCode == KeyEvent.KEYCODE_BACK && this.webView.canGoBack()){
-            this.webView.goBack();
-            return true;
-        }
-        return super.onKeyDown(keyCode, event);
-    }
-}
-
-class CustomWebViewClient extends WebViewClient{
-    private Activity activity;
-
-    public CustomWebViewClient(Activity activity){
-        this.activity = activity;
-    }
-    //Api menej ako 24
-    @Override
-    public boolean shouldOverrideUrlLoading(WebView webView, String url){
-        return false;
-    }
-    //Api viac ako 24
-    @Override
-    public boolean shouldOverrideUrlLoading(WebView webView, WebResourceRequest request){
-        return false;
-    }
 }

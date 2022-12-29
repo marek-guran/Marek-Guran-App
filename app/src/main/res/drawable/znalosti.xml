@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/znalosti" />
+    <corners
+        android:topRightRadius="40sp"
+        android:topLeftRadius="40sp" />
+    <padding
+        android:top="10sp"
+        android:bottom="10sp"
+        android:left="10sp"
+        android:right="10sp" />
+</shape>
