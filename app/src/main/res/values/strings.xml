@@ -31,7 +31,7 @@
     
     
     <string name="znalosti">Znalosti</string>
-    <string name="list_znalosti">Windows\nLinux\nTechnická Podpora\nHardvérová Podpora\nIT Operácie\nBezpečnostná Politika\nActive Directory (Windows)\nMicrosoft Hyper-V\nPython\nJava\nJavaScript\nHTML\nCSS\nMicrosoft Office 365\nAndroid Studio\nBlender</string>
+    <string name="list_znalosti">Windows - Pokročilý\nLinux - Mierne Pokročilý\nTechnická Podpora - Mierne Pokročilý\nHardvérová Podpora - Pokročilý\nIT Operácie - Mierne Pokročilý\nBezpečnostná Politika - Mierne Pokročilý\nActive Directory (Windows) - Základy\nMicrosoft Hyper-V - Pokročilý\nPython - Pokročilý\nJava - Základy\nJavaScript - Základy\nHTML - Mierne Pokročilý\nCSS - Mierne Pokročilý\nMicrosoft Office 365 - Pokročilý\nAndroid Studio - Mierne Pokročilý\nBlender - Mierne Pokročilý</string>
 
 
 
@@ -52,7 +52,7 @@
     <string name="digital_margeting">Základy digitálneho marketingu</string>
     <string name="digital_marketing_vydavatelia">Google</string>
 
-    <string name="erasmus">Certifcate Of Recognition For Acquired Experience And Competences</string>
+    <string name="erasmus">Recognition For Acquired Experience And Competences</string>
     <string name="erasmus_vydavatelia">Erasmus+</string>
 
     <string name="empty_space">\n\n\n\n\n\n\n</string>
