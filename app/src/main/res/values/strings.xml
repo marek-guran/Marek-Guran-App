@@ -1,3 +1,59 @@
 <resources>
     <string name="app_name">Marek Guráň</string>
+    <string name="title_home">Životopis</string>
+    <string name="title_dashboard">Webstránka</string>
+
+    <string name="o_mne_nadpis">O mne</string>
+    <string name="o_mne">Som študentom vysokej školy, na ktorej študujem jedno odborovú informatiku. Dosť sa zaujímam o technológie a hardvér. Mám vyštudovanú strednú odbornú školu v odbore operátor ofsetových tlačových strojov. Medzi moje koníčky patrí aj web dizajn, ktorý ma zaujal len nedávno.</string>
+
+
+
+    <string name="pracovne_skusenosti_nadpis">Pracovné skúsenosti</string>
+
+    <string name="nay_rok">Nov 2021 - Dec 2021 Manipulant s tovarom (Brigáda)</string>
+    <string name="nay_lokalizacia">NAY a.s. - Martin, Slovenská republika</string>
+    <string name="nay_popis">● Naskladňovanie tovaru\n● Vykladanie a vystavovanie tovaru na predajnú plochu\n● Pomoc zákazníkom pri výbere a naloženia tovaru do auta</string>
+
+    <string name="alfa_rok">Jan 2017 - Jan 2019 Tlačiar (Odborný výcvik)</string>
+    <string name="alfa_lokalizacia">Alfa print, s.r.o. - Martin, Slovenská republika</string>
+    <string name="alfa_popis">● Výpomoc pri offsetových tlačiarenských strojoch\n● Čistenie stroja pred ďalšou tlačou\n● Výmena offsetových tlačových platní\n● Kontrola farebnosti tlače\n● Miešanie vlhčiaceho roztoku</string>
+
+    <string name="neografia_rok">Jan 2016 - Jan 2017 Tlačiar (Odborný výcvik)</string>
+    <string name="neografia_lokalizacia">NEOGRAFIA, a.s. - Martin, Slovenská republika</string>
+    <string name="neografia_popis">● Výpomoc pri offsetových tlačiarenských strojoch\n● Čistenie stroja pred ďalšou tlačou\n● Výmena offsetových tlačových platní\n● Kontrola farebnosti tlače</string>
+
+
+
+    <string name="vzdelanie">Vzdelanie</string>
+    <string name="vzdelanie_nazov">2015 – 2019 Stredná odborná škola obchodu a služieb</string>
+    <string name="vzdelanie_odbor">● Operátor tlače pre ofset</string>
+    
+    
+    
+    <string name="znalosti">Znalosti</string>
+    <string name="list_znalosti">Windows\nLinux\nTechnická Podpora\nHardvérová Podpora\nIT Operácie\nBezpečnostná Politika\nActive Directory (Windows)\nMicrosoft Hyper-V\nPython\nJava\nJavaScript\nHTML\nCSS\nMicrosoft Office 365\nAndroid Studio\nBlender</string>
+
+
+
+    <string name="jazyky">Jazyky</string>
+    <string name="jazyky_list">Angličtina - B2\nSlovenčina - Materský Jazyk</string>
+
+
+
+    <string name="vp">Vodičský Preukaz</string>
+    <string name="vp_skupina">Skupina B</string>
+
+
+
+    <string name="certifikácie">Certifikácie</string>
+    <string name="google_it_nazov">Google IT Support Specialization Certificate</string>
+    <string name="google_it_vydavatelia">Google, Coursera</string>
+
+    <string name="digital_margeting">Základy digitálneho marketingu</string>
+    <string name="digital_marketing_vydavatelia">Google</string>
+
+    <string name="erasmus">Certifcate Of Recognition For Acquired Experience And Competences</string>
+    <string name="erasmus_vydavatelia">Erasmus+</string>
+
+    <string name="empty_space">\n\n\n\n\n\n\n</string>
 </resources>
