@@ -1,14 +1,17 @@
 <resources>
     <string name="app_name">Marek Guráň</string>
     <string name="title_home">Životopis</string>
-    <string name="title_dashboard">Webstránka</string>
+    <string name="title_dashboard">Záujmy</string>
+    <string name="photo_of_marek_guran">Fotka Mareka Guráňa</string>
+    <string name="google_it_certificate_photo">Fotka Google IT Certifikátu</string>
+    <string name="google_marketing_photo">Fotka Certifikátu Základy Digitálneho Marketingu od Googlu</string>
 
-    <string name="o_mne_nadpis">O mne</string>
+    <string name="o_mne_nadpis">O Mne</string>
     <string name="o_mne">Som študentom vysokej školy, na ktorej študujem jedno odborovú informatiku. Dosť sa zaujímam o technológie a hardvér. Mám vyštudovanú strednú odbornú školu v odbore operátor ofsetových tlačových strojov. Medzi moje koníčky patrí aj web dizajn, ktorý ma zaujal len nedávno.</string>
 
 
 
-    <string name="pracovne_skusenosti_nadpis">Pracovné skúsenosti</string>
+    <string name="pracovne_skusenosti_nadpis">Pracovné Skúsenosti</string>
 
     <string name="nay_rok">Nov 2021 - Dec 2021 Manipulant s tovarom (Brigáda)</string>
     <string name="nay_lokalizacia">NAY a.s. - Martin, Slovenská republika</string>
@@ -56,4 +59,9 @@
     <string name="erasmus_vydavatelia">Erasmus+</string>
 
     <string name="empty_space">\n\n\n\n\n\n\n</string>
+
+
+
+    <string name="android">Android</string>
+    <string name="android_text">Zaujímam sa o vývoj OS Android. Mať najaktuálnejšiu verziu androidu je vo väčšine prípadoch nemožné... Je to následkom toho, že výrobca telefónu splní svoju povinnosť a poskytne aktualizáciu len na určitý čas. Väčšina výrobcov poskytuje aktualizácie len na 2-3 roky. Tým pádom telefón stráca podporu a už sa nedá aktualizovať a časom je menej a menej bezpečný. Preto som sa začal zaujímať o vývoj OS Android a učil som sa vytvárať vlastné verzie OS androidu. V minulosti som spravoval neoficiálnu verziu LineageOs 14.1 pre môj starý telefón Asus ZenFone 2. Po čase som už nemal dostatočne výkonný PC na vývoj a preto som sa rozhodol stať iba používateľom... Avšak nedávno som začal znovu vydávať vlastné verzie OS Android pre Xiaomi Mi A2 založený na LineageOs 18.1 (Android 11).</string>
 </resources>

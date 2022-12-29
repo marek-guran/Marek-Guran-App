@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Marek Guráň</string>
+    <string name="title_home">Resume</string>
+    <string name="title_dashboard">Webpage</string>
+    <string name="photo_of_marek_guran">Photo Of Marek Guráň</string>
+    <string name="google_it_certificate_photo">Photo Of Google IT Certification</string>
+    <string name="google_marketing_photo">Photo of Google Digital Marketing Fundementals</string>
+    <string name="o_mne_nadpis">About Me</string>
+    <string name="pracovne_skusenosti_nadpis">Work Expierence</string>
+    <string name="vzdelanie">Education</string>
+</resources>

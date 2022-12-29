@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="meno">@color/black</color>
     <color name="meno_text">@color/white</color>
+    <color name="android">#3DDA84</color>
 </resources>
