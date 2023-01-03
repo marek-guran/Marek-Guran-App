@@ -10,19 +10,11 @@
         <item name="colorSecondaryVariant">@color/teal_200</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">#00FFFFFF</item>
+        <item name="android:statusBarColor">@color/o_mne</item>
         <item name="android:windowLightStatusBar">
-            true
+            false
         </item>
         <!-- Customize your theme here. -->
         <item name="android:textColor">@color/white</item>
-    </style>
-
-    <style name="Widget.Material3.BottomNavigationView.ActiveIndicator" parent="">
-        <item name="android:width">@dimen/m3_bottom_nav_item_active_indicator_width</item>
-        <item name="android:height">@dimen/m3_bottom_nav_item_active_indicator_height</item>
-        <item name="marginHorizontal">@dimen/m3_bottom_nav_item_active_indicator_margin_horizontal</item>
-        <item name="shapeAppearance">@style/ShapeAppearance.Material3.NavigationBarView.ActiveIndicator</item>
-        <item name="android:color">@color/o_mne</item>
     </style>
 </resources>

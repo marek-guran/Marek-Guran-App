@@ -19,28 +19,18 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/status_bar_space"
-            android:layout_width="match_parent"
-            android:layout_height="50sp"
-            android:background="@color/meno"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBaseline_toTopOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
-
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:background="@color/meno"
+            android:background="@color/o_mne"
             android:contentDescription="@string/photo_of_marek_guran"
             android:foregroundGravity="center"
             android:src="@drawable/fotka"
             app:layout_constraintBaseline_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/status_bar_space" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/meno"
@@ -49,7 +39,6 @@
             android:background="@drawable/meno"
             android:gravity="center"
             android:text="@string/app_name"
-            android:textColor="@color/meno_text"
             android:textSize="25sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -449,7 +438,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/digital_marketing_certificate"/>
-
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
