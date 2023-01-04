@@ -3,7 +3,7 @@
 
     <item
         android:id="@+id/navigation_home"
-        android:icon="@drawable/zivotopis"
+        android:icon="@drawable/vyber_zivotopis"
         android:title="@string/title_home" />
 
     <item
