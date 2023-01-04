@@ -19,18 +19,28 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <TextView
+            android:id="@+id/status_bar_space"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="@color/card"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBaseline_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:background="@color/o_mne"
+            android:background="@color/card"
             android:contentDescription="@string/photo_of_marek_guran"
             android:foregroundGravity="center"
             android:src="@drawable/fotka"
             app:layout_constraintBaseline_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/status_bar_space" />
 
         <TextView
             android:id="@+id/meno"
@@ -41,6 +51,7 @@
             android:text="@string/app_name"
             android:textSize="25sp"
             android:textStyle="bold"
+            android:paddingBottom="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -55,6 +66,8 @@
             android:textSize="20sp"
             android:textStyle="bold"
             android:textAlignment="center"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/meno" />
@@ -67,6 +80,8 @@
             android:textAlignment="center"
             android:textSize="14sp"
             android:background="@drawable/o_mne_text"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/o_mne" />
@@ -81,6 +96,8 @@
             android:textAlignment="center"
             android:textStyle="bold"
             android:background="@drawable/pracovne_skusenosti"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/text_o_mne" />
@@ -92,8 +109,10 @@
             android:text="@string/nay_rok"
             android:textSize="16sp"
             android:textStyle="bold"
-            android:background="@color/pracovne_skusenosti"
+            android:background="@color/card"
             android:textAlignment="center"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/pracovne_skusenosti" />
@@ -105,7 +124,9 @@
             android:text="@string/nay_lokalizacia"
             android:textSize="12sp"
             android:textAlignment="center"
-            android:background="@color/pracovne_skusenosti"
+            android:background="@color/card"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/nay_rok" />
@@ -117,7 +138,9 @@
             android:text="@string/nay_popis"
             android:textSize="14sp"
             android:textAlignment="center"
-            android:background="@color/pracovne_skusenosti"
+            android:background="@color/card"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/nay_lokacia" />
@@ -131,7 +154,9 @@
             android:textSize="16sp"
             android:textAlignment="center"
             android:textStyle="bold"
-            android:background="@color/pracovne_skusenosti"
+            android:background="@color/card"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/nay_praca" />
@@ -143,7 +168,9 @@
             android:text="@string/alfa_lokalizacia"
             android:textSize="12sp"
             android:textAlignment="center"
-            android:background="@color/pracovne_skusenosti"
+            android:background="@color/card"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alfa_rok" />
@@ -155,7 +182,9 @@
             android:text="@string/alfa_popis"
             android:textSize="14sp"
             android:textAlignment="center"
-            android:background="@color/pracovne_skusenosti"
+            android:background="@color/card"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alfa_lokacia" />
@@ -169,7 +198,9 @@
             android:textStyle="bold"
             android:textAlignment="center"
             android:paddingTop="10sp"
-            android:background="@color/pracovne_skusenosti"
+            android:background="@color/card"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/alfa_praca" />
@@ -181,7 +212,9 @@
             android:text="@string/neografia_lokalizacia"
             android:textSize="12sp"
             android:textAlignment="center"
-            android:background="@color/pracovne_skusenosti"
+            android:background="@color/card"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/neografia_rok" />
@@ -194,6 +227,8 @@
             android:textSize="14sp"
             android:textAlignment="center"
             android:background="@drawable/pracovne_skusenosti_koniec"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/neografia_lokacia"/>
@@ -209,6 +244,8 @@
             android:textAlignment="center"
             android:background="@drawable/vzdelanie"
             app:layout_goneMarginTop="20sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/neografia_praca"/>
@@ -221,7 +258,9 @@
             android:textSize="16sp"
             android:textAlignment="center"
             android:textStyle="bold"
-            android:background="@color/vzdelanie"
+            android:background="@color/card"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vzdelanie"/>
@@ -234,6 +273,8 @@
             android:textSize="14sp"
             android:textAlignment="center"
             android:background="@drawable/vzdelanie_koniec"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vzdelanie_nazov"/>
@@ -249,6 +290,8 @@
             android:textAlignment="center"
             android:background="@drawable/znalosti"
             app:layout_goneMarginTop="20sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vzdelanie_odbor"/>
@@ -261,6 +304,8 @@
             android:textSize="14sp"
             android:textAlignment="center"
             android:background="@drawable/znalosti_koniec"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/znalosti" />
@@ -276,6 +321,8 @@
             android:textAlignment="center"
             android:background="@drawable/jazyky"
             app:layout_goneMarginTop="20sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/znalosti_list"/>
@@ -288,6 +335,8 @@
             android:textSize="14sp"
             android:textAlignment="center"
             android:background="@drawable/jazyky_koniec"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/jazyky"/>
@@ -303,6 +352,8 @@
             android:textAlignment="center"
             android:background="@drawable/vp"
             app:layout_goneMarginTop="20sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/jazyky_list"/>
@@ -315,6 +366,8 @@
             android:textSize="14sp"
             android:textAlignment="center"
             android:background="@drawable/vp_koniec"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vp"/>
@@ -330,6 +383,8 @@
             android:textAlignment="center"
             android:background="@drawable/certifikaty"
             app:layout_goneMarginTop="20sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vp_skupina"/>
@@ -342,7 +397,9 @@
             android:textSize="16sp"
             android:textAlignment="center"
             android:textStyle="bold"
-            android:background="@color/certifikacie"
+            android:background="@color/card"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/certifikacie"/>
@@ -354,7 +411,9 @@
             android:text="@string/google_it_vydavatelia"
             android:textSize="14sp"
             android:textAlignment="center"
-            android:background="@color/certifikacie"
+            android:background="@color/card"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/google_it"/>
@@ -367,7 +426,9 @@
             android:textSize="16sp"
             android:textAlignment="center"
             android:textStyle="bold"
-            android:background="@color/certifikacie"
+            android:background="@color/card"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/it_vydavatelia"/>
@@ -379,7 +440,9 @@
             android:text="@string/digital_marketing_vydavatelia"
             android:textSize="14sp"
             android:textAlignment="center"
-            android:background="@color/certifikacie"
+            android:background="@color/card"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/digital_marketing"/>
@@ -392,7 +455,9 @@
             android:textSize="16sp"
             android:textStyle="bold"
             android:textAlignment="center"
-            android:background="@color/certifikacie"
+            android:background="@color/card"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/digital_marketing_vydavatelia"/>
@@ -405,6 +470,8 @@
             android:textSize="14sp"
             android:textAlignment="center"
             android:background="@drawable/certifikaty_koniec"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/erasmus"/>

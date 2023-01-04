@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/o_mne_text" />
+    <solid android:color="@color/card" />
     <corners
         android:bottomLeftRadius="40sp"
         android:bottomRightRadius="40sp" />
