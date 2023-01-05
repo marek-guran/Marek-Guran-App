@@ -16,15 +16,28 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBaseline_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary" />
+
+        <TextView
+            android:id="@+id/imageViewBackground"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:foregroundGravity="center"
+            android:background="@color/card"
+            app:layout_constraintBaseline_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/status_bar_space"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary" />
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:background="@color/card"
             android:contentDescription="@string/photo_of_marek_guran"
             android:foregroundGravity="center"
+            android:background="#00000000"
             android:src="@drawable/fotka"
             app:layout_constraintBaseline_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -43,7 +56,8 @@
             android:paddingBottom="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary" />
 
         <TextView
             android:id="@+id/o_mne"
@@ -59,7 +73,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/meno" />
+            app:layout_constraintTop_toBottomOf="@+id/meno"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary" />
 
         <TextView
             android:id="@+id/text_o_mne"
@@ -73,7 +88,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/o_mne" />
+            app:layout_constraintTop_toBottomOf="@+id/o_mne"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary" />
 
         <TextView
             android:id="@+id/pracovne_skusenosti"
@@ -89,7 +105,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_o_mne" />
+            app:layout_constraintTop_toBottomOf="@+id/text_o_mne"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary" />
 
         <TextView
             android:id="@+id/nay_rok"
@@ -104,7 +121,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/pracovne_skusenosti" />
+            app:layout_constraintTop_toBottomOf="@+id/pracovne_skusenosti"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary" />
 
         <TextView
             android:id="@+id/nay_lokacia"
@@ -118,7 +136,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/nay_rok" />
+            app:layout_constraintTop_toBottomOf="@+id/nay_rok"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary" />
 
         <TextView
             android:id="@+id/nay_praca"
@@ -132,7 +151,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/nay_lokacia" />
+            app:layout_constraintTop_toBottomOf="@+id/nay_lokacia"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary" />
 
         <TextView
             android:id="@+id/alfa_rok"
@@ -148,7 +168,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/nay_praca" />
+            app:layout_constraintTop_toBottomOf="@+id/nay_praca"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary" />
 
         <TextView
             android:id="@+id/alfa_lokacia"
@@ -162,7 +183,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/alfa_rok" />
+            app:layout_constraintTop_toBottomOf="@+id/alfa_rok"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <TextView
             android:id="@+id/alfa_praca"
@@ -176,7 +198,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/alfa_lokacia" />
+            app:layout_constraintTop_toBottomOf="@+id/alfa_lokacia"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <TextView
             android:id="@+id/neografia_rok"
@@ -192,7 +215,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/alfa_praca" />
+            app:layout_constraintTop_toBottomOf="@+id/alfa_praca"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <TextView
             android:id="@+id/neografia_lokacia"
@@ -206,7 +230,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/neografia_rok" />
+            app:layout_constraintTop_toBottomOf="@+id/neografia_rok"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <TextView
             android:id="@+id/neografia_praca"
@@ -220,7 +245,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/neografia_lokacia"/>
+            app:layout_constraintTop_toBottomOf="@+id/neografia_lokacia"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <TextView
             android:id="@+id/vzdelanie"
@@ -237,7 +263,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/neografia_praca"/>
+            app:layout_constraintTop_toBottomOf="@+id/neografia_praca"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <TextView
             android:id="@+id/vzdelanie_nazov"
@@ -252,7 +279,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/vzdelanie"/>
+            app:layout_constraintTop_toBottomOf="@+id/vzdelanie"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <TextView
             android:id="@+id/vzdelanie_odbor"
@@ -266,7 +294,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/vzdelanie_nazov"/>
+            app:layout_constraintTop_toBottomOf="@+id/vzdelanie_nazov"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <TextView
             android:id="@+id/znalosti"
@@ -283,7 +312,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/vzdelanie_odbor"/>
+            app:layout_constraintTop_toBottomOf="@+id/vzdelanie_odbor"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <TextView
             android:id="@+id/znalosti_list"
@@ -297,7 +327,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/znalosti" />
+            app:layout_constraintTop_toBottomOf="@+id/znalosti"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <TextView
             android:id="@+id/jazyky"
@@ -314,7 +345,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/znalosti_list"/>
+            app:layout_constraintTop_toBottomOf="@+id/znalosti_list"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <TextView
             android:id="@+id/jazyky_list"
@@ -328,7 +360,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/jazyky"/>
+            app:layout_constraintTop_toBottomOf="@+id/jazyky"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <TextView
             android:id="@+id/vp"
@@ -345,7 +378,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/jazyky_list"/>
+            app:layout_constraintTop_toBottomOf="@+id/jazyky_list"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <TextView
             android:id="@+id/vp_skupina"
@@ -359,7 +393,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/vp"/>
+            app:layout_constraintTop_toBottomOf="@+id/vp"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <TextView
             android:id="@+id/certifikacie"
@@ -376,7 +411,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/vp_skupina"/>
+            app:layout_constraintTop_toBottomOf="@+id/vp_skupina"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <TextView
             android:id="@+id/google_it"
@@ -391,7 +427,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/certifikacie"/>
+            app:layout_constraintTop_toBottomOf="@+id/certifikacie"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <TextView
             android:id="@+id/it_vydavatelia"
@@ -405,7 +442,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/google_it"/>
+            app:layout_constraintTop_toBottomOf="@+id/google_it"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <TextView
             android:id="@+id/digital_marketing"
@@ -420,7 +458,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/it_vydavatelia"/>
+            app:layout_constraintTop_toBottomOf="@+id/it_vydavatelia"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <TextView
             android:id="@+id/digital_marketing_vydavatelia"
@@ -434,7 +473,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/digital_marketing"/>
+            app:layout_constraintTop_toBottomOf="@+id/digital_marketing"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <TextView
             android:id="@+id/erasmus"
@@ -449,7 +489,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/digital_marketing_vydavatelia"/>
+            app:layout_constraintTop_toBottomOf="@+id/digital_marketing_vydavatelia"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <TextView
             android:id="@+id/erasmus_vydavatelia"
@@ -463,7 +504,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/erasmus"/>
+            app:layout_constraintTop_toBottomOf="@+id/erasmus"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <ImageView
             android:contentDescription="@string/google_it_certificate_photo"

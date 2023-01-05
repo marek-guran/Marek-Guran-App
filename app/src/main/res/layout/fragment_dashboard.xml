@@ -34,7 +34,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/status_bar_space" />
+            app:layout_constraintTop_toBottomOf="@id/status_bar_space"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary" />
 
         <TextView
             android:id="@+id/android_text"
@@ -47,7 +48,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/android" />
+            app:layout_constraintTop_toBottomOf="@+id/android"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary" />
 
         <TextView
             android:id="@+id/hardver"
@@ -63,7 +65,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/android_text"/>
+            app:layout_constraintTop_toBottomOf="@+id/android_text"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <TextView
             android:id="@+id/hardver_text"
@@ -76,7 +79,8 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/hardver"/>
+            app:layout_constraintTop_toBottomOf="@+id/hardver"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
 
 
