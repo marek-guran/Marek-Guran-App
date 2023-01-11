@@ -50,16 +50,12 @@
 
     <string name="certifikácie">Certifikácie</string>
     <string name="google_it_nazov">Google Certifikát Špecializácie Podpory IT</string>
-    <string name="google_it_vydavatelia">Google, Coursera</string>
 
     <string name="digital_margeting">Základy Digitálneho Marketingu</string>
     <string name="digital_marketing_vydavatelia">Google</string>
 
     <string name="erasmus">Uznanie Za Nadobudnuté Skúsenosti A Kompetencie</string>
     <string name="erasmus_vydavatelia">Erasmus+</string>
-
-    <string name="empty_space">\n\n\n\n\n\n\n</string>
-
 
 
     <string name="android">Android</string>

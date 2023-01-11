@@ -415,6 +415,37 @@
             style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <TextView
+            android:id="@+id/google_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/google_play_nazov"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:background="@color/card"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/certifikacie"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
+
+        <TextView
+            android:id="@+id/play_vydavatelia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/google_play_vydavatelia"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:background="@color/card"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/google_play"
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
+
+        <TextView
             android:id="@+id/google_it"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -427,7 +458,7 @@
             android:layout_marginRight="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/certifikacie"
+            app:layout_constraintTop_toBottomOf="@+id/play_vydavatelia"
             style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <TextView
@@ -509,6 +540,17 @@
 
         <ImageView
             android:contentDescription="@string/google_it_certificate_photo"
+            android:id="@+id/play_certificate"
+            android:layout_width="match_parent"
+            android:layout_height="330sp"
+            android:src="@drawable/google_play_certificate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/erasmus_vydavatelia"/>
+
+        <ImageView
+            android:contentDescription="@string/google_it_certificate_photo"
             android:id="@+id/it_certificate"
             android:layout_width="match_parent"
             android:layout_height="330sp"
@@ -516,7 +558,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginTop="20sp"
-            app:layout_constraintTop_toBottomOf="@+id/erasmus_vydavatelia"/>
+            app:layout_constraintTop_toBottomOf="@+id/play_certificate"/>
 
         <ImageView
             android:contentDescription="@string/google_marketing_photo"
@@ -529,13 +571,24 @@
             android:layout_marginTop="20sp"
             app:layout_constraintTop_toBottomOf="@+id/it_certificate"/>
 
+        <ImageView
+            android:contentDescription="@string/google_marketing_photo"
+            android:id="@+id/erasmus_certificate"
+            android:layout_width="match_parent"
+            android:layout_height="300sp"
+            android:src="@drawable/erasmus_certificate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/digital_marketing_certificate"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/empty_space"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/digital_marketing_certificate"/>
+            app:layout_constraintTop_toBottomOf="@+id/erasmus_certificate"/>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

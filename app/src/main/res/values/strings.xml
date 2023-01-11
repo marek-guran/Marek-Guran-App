@@ -7,7 +7,7 @@
     <string name="google_it_certificate_photo">Photo Of Google IT Certification</string>
     <string name="google_marketing_photo">Photo of Google Digital Marketing Fundementals</string>
     <string name="o_mne_nadpis">About Me</string>
-    <string name="pracovne_skusenosti_nadpis">Work Expierence</string>
+    <string name="pracovne_skusenosti_nadpis">Work Experience</string>
     <string name="vzdelanie">Education</string>
     <string name="o_mne">I am a student at a university where I am studying computer science. I am quite interested in technology and hardware. I graduated from secondary vocational school in the field of offset printing machine operator. Among my hobbies is also web design, which caught my attention only recently.</string>
     <string name="nay_rok">"Nov 2021 - Dec 2021 Goods Handler (Voluntary work) "</string>
@@ -23,6 +23,8 @@
     <string name="vp">Driving License</string>
     <string name="vp_skupina">Group B</string>
     <string name="certifikácie">Certifications</string>
+    <string name="google_play_nazov" translatable="false">Store Listing Certificate</string>
+    <string name="google_play_vydavatelia" translatable="false">Google Play Academy</string>
     <string name="google_it_nazov">Google IT Support Specialization Certificate</string>
     <string name="digital_margeting">"Basics Of Digital Marketing "</string>
     <string name="erasmus">Recognition For Acquired Experience And Competences</string>
@@ -30,7 +32,7 @@
     <string name="hardver">"Computer Hardware "</string>
     <string name="hardver_text">"I also do not disdain information about the latest PC hardware. I've never had a pre-assembled computer, I've always bought components and assembled them myself. I currently have a computer with an AMD Ryzen 3 1200 processor, an Nvidia GeForce GTX 1650 GPU, 16GB of RAM and an SSD drive. I have put it together back in 2015 and I am gradually improving it. The computer has already undergone many upgrades... In the basic configuration, when I have assembled it for the first time, it had only one HDD, 8 GB of RAM and a GTX 1050. "</string>
     <string name="vzdelanie_odbor">"● Print operator for offset "</string>
-    <string name="google_it_vydavatelia">Google, Coursera</string>
+    <string name="google_it_vydavatelia" translatable="false">Google, Coursera</string>
     <string name="digital_marketing_vydavatelia">Google</string>
     <string name="erasmus_vydavatelia">Erasmus+</string>
     <string name="android">Android</string>
@@ -38,5 +40,5 @@
     <string name="neografia_popis">● Assistance with offset printing machines\n● Cleaning the machine before the next print\n● Changing offset printing plates\n● Checking the color of the print</string>
     <string name="list_znalosti">Windows - Advanced\nLinux - Moderately Advanced\nTechnical Support - Moderately Advanced\nHardware Support - Advanced\nIT Operations - Moderately Advanced\nSecurity Policy - Moderately Advanced\nActive Directory (Windows) - Basics\nMicrosoft Hyper-V - Advanced\nPython - Advanced\nJava - Basics\nJavaScript - Basics\nHTML - Moderately Advanced\nCSS - Moderately Advanced\nMicrosoft Office 365 - Advanced\nAndroid Studio - Moderately Advanced\nBlender - Moderately Advanced</string>
     <string name="jazyky_list">English - B2\nSlovak - Mother Tongue</string>
-    <string name="empty_space">\n\n\n\n\n\n\n</string>
+    <string name="empty_space" translatable="false">\n\n\n\n\n\n\n</string>
 </resources>
