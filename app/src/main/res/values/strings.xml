@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Marek Guráň</string>
     <string name="title_home">Resume</string>
-    <string name="title_dashboard">Hobbies</string>
+    <string name="title_dashboard">Website</string>
     <string name="photo_of_marek_guran">Photo Of Marek Guráň</string>
     <string name="google_it_certificate_photo">Photo Of Google IT Certification</string>
     <string name="google_marketing_photo">Photo of Google Digital Marketing Fundementals</string>

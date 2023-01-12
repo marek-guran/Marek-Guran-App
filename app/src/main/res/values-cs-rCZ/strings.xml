@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Marek Guráň</string>
     <string name="title_home">Životopis</string>
-    <string name="title_dashboard">Záujmy</string>
+    <string name="title_dashboard">Webstránka</string>
     <string name="photo_of_marek_guran">Fotka Mareka Guráňa</string>
     <string name="google_it_certificate_photo">Fotka Google IT Certifikátu</string>
     <string name="google_marketing_photo">Fotka Certifikátu Základy Digitálneho Marketingu od Googlu</string>
