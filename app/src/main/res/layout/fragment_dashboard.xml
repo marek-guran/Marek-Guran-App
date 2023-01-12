@@ -1,88 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <WebView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        android:layout_marginBottom="65dp"
+        android:id="@+id/webview">
+    </WebView>
 
-        <TextView
-            android:id="@+id/status_bar_space"
-            android:layout_width="match_parent"
-            android:layout_height="50sp"
-            android:background="#00E8E7E7"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBaseline_toTopOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
-
-
-        <TextView
-            android:id="@+id/android"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/android"
-            android:gravity="center"
-            android:text="@string/android"
-            android:textSize="25sp"
-            android:textStyle="bold"
-            android:layout_marginTop="10sp"
-            android:layout_marginLeft="10sp"
-            android:layout_marginRight="10sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/status_bar_space"
-            style="@style/Widget.Material3.FloatingActionButton.Secondary" />
-
-        <TextView
-            android:id="@+id/android_text"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/android_text"
-            android:textSize="14sp"
-            android:background="@drawable/android_text"
-            android:layout_marginLeft="10sp"
-            android:layout_marginRight="10sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/android"
-            style="@style/Widget.Material3.FloatingActionButton.Secondary" />
-
-        <TextView
-            android:id="@+id/hardver"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/hardver"
-            android:gravity="center"
-            android:text="@string/hardver"
-            android:textSize="25sp"
-            android:textStyle="bold"
-            android:layout_marginTop="20sp"
-            android:layout_marginLeft="10sp"
-            android:layout_marginRight="10sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/android_text"
-            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
-
-        <TextView
-            android:id="@+id/hardver_text"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/hardver_text"
-            android:textSize="14sp"
-            android:background="@drawable/hardver_text"
-            android:layout_marginLeft="10sp"
-            android:layout_marginRight="10sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/hardver"
-            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
-
-
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-</ScrollView>
+</RelativeLayout>
