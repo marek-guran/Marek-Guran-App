@@ -23,19 +23,15 @@
     <string name="vp">Driving License</string>
     <string name="vp_skupina">Group B</string>
     <string name="certifikácie">Certifications</string>
-    <string name="google_play_nazov" translatable="false">Store Listing Certificate</string>
+    <string name="google_play_nazov" translatable="false">Google Play Store Listing Certificate</string>
     <string name="google_play_vydavatelia" translatable="false">Google Play Academy</string>
     <string name="google_it_nazov">Google IT Support Specialization Certificate</string>
     <string name="digital_margeting">"Basics Of Digital Marketing "</string>
     <string name="erasmus">Recognition For Acquired Experience And Competences</string>
-    <string name="android_text">"I am interested in Android OS development. Having the most up-to-date version of android is impossible in most cases... This is due to the fact that the phone manufacturer fulfills its obligation and provides the update only for a certain time. Most manufacturers only provide updates for 2-3 years. As a result, the phone loses support and can no longer be updated and becomes less and less secure over time. That's why I have become interested in Android OS development and learned to create my own versions of Android OS. In the past, I managed an unofficial version of LineageOs 14.1 for my old phone Asus ZenFone 2. After a while, I no longer had a powerful enough PC for development, so I decided to become a user... However, recently I started re-releasing custom versions of Android OS for Xiaomi Mi A2 based on LineageOs 18.1 (Android 11). "</string>
-    <string name="hardver">"Computer Hardware "</string>
-    <string name="hardver_text">"I also do not disdain information about the latest PC hardware. I've never had a pre-assembled computer, I've always bought components and assembled them myself. I currently have a computer with an AMD Ryzen 3 1200 processor, an Nvidia GeForce GTX 1650 GPU, 16GB of RAM and an SSD drive. I have put it together back in 2015 and I am gradually improving it. The computer has already undergone many upgrades... In the basic configuration, when I have assembled it for the first time, it had only one HDD, 8 GB of RAM and a GTX 1050. "</string>
     <string name="vzdelanie_odbor">"● Print operator for offset "</string>
     <string name="google_it_vydavatelia" translatable="false">Google, Coursera</string>
     <string name="digital_marketing_vydavatelia">Google</string>
     <string name="erasmus_vydavatelia">Erasmus+</string>
-    <string name="android">Android</string>
     <string name="alfa_popis">"● Assistance with offset printing machines\n● Cleaning the machine before the next print\n● Changing offset printing plates\n● Checking the color of the print\n● Mixing the printing colors "</string>
     <string name="neografia_popis">● Assistance with offset printing machines\n● Cleaning the machine before the next print\n● Changing offset printing plates\n● Checking the color of the print</string>
     <string name="list_znalosti">Windows - Advanced\nLinux - Moderately Advanced\nTechnical Support - Moderately Advanced\nHardware Support - Advanced\nIT Operations - Moderately Advanced\nSecurity Policy - Moderately Advanced\nActive Directory (Windows) - Basics\nMicrosoft Hyper-V - Advanced\nPython - Advanced\nJava - Basics\nJavaScript - Basics\nHTML - Moderately Advanced\nCSS - Moderately Advanced\nMicrosoft Office 365 - Advanced\nAndroid Studio - Moderately Advanced\nBlender - Moderately Advanced</string>

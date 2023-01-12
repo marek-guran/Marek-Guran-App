@@ -58,9 +58,4 @@
     <string name="erasmus_vydavatelia">Erasmus+</string>
 
 
-    <string name="android">Android</string>
-    <string name="android_text">Zaujímam sa o vývoj OS Android. Mať najaktuálnejšiu verziu androidu je vo väčšine prípadoch nemožné... Je to následkom toho, že výrobca telefónu splní svoju povinnosť a poskytne aktualizáciu len na určitý čas. Väčšina výrobcov poskytuje aktualizácie len na 2-3 roky. Tým pádom telefón stráca podporu a už sa nedá aktualizovať a časom je menej a menej bezpečný. Preto som sa začal zaujímať o vývoj OS Android a učil som sa vytvárať vlastné verzie OS androidu. V minulosti som spravoval neoficiálnu verziu LineageOs 14.1 pre môj starý telefón Asus ZenFone 2. Po čase som už nemal dostatočne výkonný PC na vývoj a preto som sa rozhodol stať iba používateľom... Avšak nedávno som začal znovu vydávať vlastné verzie OS Android pre Xiaomi Mi A2 založený na LineageOs 18.1 (Android 11).</string>
-
-    <string name="hardver">Počítačový Hardvér</string>
-    <string name="hardver_text">Taktiež nepohrdnem po informáciach o najnovšom hardvéri určenom pre PC. Nikdy som nemal predom poskladaný počítač, vždy som si kúpil komponenty a poskladal som si ho. V súčasnosti mám počítač s procesorom AMD Ryzen 3 1200, grafickou kartou Nvidia GeForce GTX 1650, 16GB RAM a s SSD diskom. Poskladal som ho v roku 2015 a postupne si ho vylepšujem a pridávam nové komponenty. Počítač prešiel už mnohými upgradami... V základnej konfigurácii, keď som ho prvý krát skladal mal len jeden HDD, 8 GB RAM a GTX 1050.</string>
 </resources>

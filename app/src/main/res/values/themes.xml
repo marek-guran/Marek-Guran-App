@@ -27,7 +27,7 @@
         <item name="colorSurfaceInverse">@color/md_theme_light_inverseSurface</item>
         <item name="colorPrimaryInverse">@color/md_theme_light_inversePrimary</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">#00E8E7E7</item>
+        <item name="android:statusBarColor">@color/card</item>
         <item name="android:windowLightStatusBar">
             true
         </item>
