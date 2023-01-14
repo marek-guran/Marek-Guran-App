@@ -18,6 +18,7 @@
         android:theme="@style/Theme.MarekGuráň"
         android:usesCleartextTraffic="true"
         android:fitsSystemWindows="true"
+        android:largeHeap="true"
         tools:targetApi="33">
         <activity
             android:name=".MainActivity"
